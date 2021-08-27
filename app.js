@@ -1,5 +1,5 @@
 console.log("This is working! Its an Note Making app");
-//shownotes();
+shownotes();
 
 //Adding notes to local storage
 let addbtn = document.getElementById('addbtn');
