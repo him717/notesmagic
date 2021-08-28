@@ -13,9 +13,14 @@ addbtn.addEventListener("click", function (e) {
     else {
         notesObj = JSON.parse(notes);
     }
-    notesObj.push(txtArea.value);
+    let myObj = {
+        title: addTitle.value,
+        text: txtArea.value
+    }
+    notesObj.push(myObj);
     localStorage.setItem("notes", JSON.stringify(notesObj));
     txtArea.value = "";
+    addTitle.value = "";
     console.log(notesObj);
     shownotes();
 })
