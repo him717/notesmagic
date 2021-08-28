@@ -73,7 +73,7 @@ function deletenote(index){
 
 // Search function
 
-let search = document.getElementsbyId('searchTxt');
+let search = document.getElementById('searchTxt');
 search.addEventListener("input", function () {
     let inputVal = search.value.toLowerCase();
     console.log(inputVal);
