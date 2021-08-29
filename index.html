@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="style.css" class="src">
 
 </head>
 
@@ -34,19 +35,19 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <h3>Welcome to Notes Magic <span class="badge bg-secondary my-2">By dev_hk</span></h3>
+    <div class="container-fluid" id="bgimage">
+        <h3 style="font-weight: bolder;">Welcome to Notes Magic <span class="badge bg-secondary my-2">By dev_hk</span></h3>
         <hr>
         <div class="card">
             <div class="card-body">
                  <div class="form-group">
-                    <h5 class="card-title">Add title</h5>
+                    <h5 class="card-title" style="font-weight: bolder;">Add title</h5>
                     <input type="text" class="form-control" id="addTitle" aria-describedby="title"
                         placeholder="Enter title">
                 </div>
-                <h5 class="card-title">Add a note</h5>
+                <h5 class="card-title" style="font-weight: bolder;">Add a note</h5>
                 <div class="form-group">
-                    <textarea class="form-control" id="txtArea" rows="1"></textarea>
+                    <textarea class="form-control" id="txtArea" rows="1" placeholder="Enter Notes"></textarea>
                 </div>
                 <button class="btn btn-primary my-2" id="addbtn">Add Note</button>
             </div>
