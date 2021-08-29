@@ -1,0 +1,9 @@
+#bgimage {
+  background-image: url("pexels-karolina-grabowska-4195328.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  }
